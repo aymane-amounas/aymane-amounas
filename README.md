@@ -29,5 +29,3 @@ AI / ML
 ![React/TS](https://img.shields.io/badge/React%2FTS-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![And we learn more...](https://img.shields.io/badge/...and_we_learn_more!-4CAF50?style=flat-square)
 
-## Contact
-Email: [redacted-email]
