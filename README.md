@@ -12,12 +12,12 @@ I care about how a thing works all the way down: software engineering, systems, 
 
 ### What I'm building
 
-| Project | What it is | Stack | Status |
-|:---|:---|:---|:---|
-| [WekI](https://github.com/aymane-amounas/WekI) | Offline Wikipedia reader. Read local, sync when you're back online. | `Python` | built |
-| [Venus Agent](https://github.com/aymane-amounas/venusAgent) | Rust agent runtime . providers, capabilities, permissions. | `Rust` | in development |
-| [jarvS](https://github.com/aymane-amounas/jarvS) | Local-first personal AI agent. Ollama + permissioned tools. | `Rust` · `Python` | built |
-| more… | there's always something cooking. | | . |
+| Project | What it is | Stack | Status | Demo |
+|:---|:---|:---|:---|:---|
+| [WekI](https://github.com/aymane-amounas/WekI) | Offline Wikipedia reader. Read local, sync when you're back online. | `Python` | built | [screenshots](https://github.com/aymane-amounas/WekI#screenshots) · [live sync](https://github.com/aymane-amounas/WekI/blob/main/benchmarks/live-sync-2026-11-10.md) |
+| [Venus Agent](https://github.com/aymane-amounas/venusAgent) | Rust agent runtime . providers, capabilities, permissions. | `Rust` | in development | [demo.md](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) |
+| [jarvS](https://github.com/aymane-amounas/jarvS) | Local-first personal AI agent. Ollama + permissioned tools. | `Rust` · `Python` | built | [DEMO.md](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) |
+| more… | there's always something cooking. | | . | |
 
 ### What I'm into
 
