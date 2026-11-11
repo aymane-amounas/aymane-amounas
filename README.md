@@ -14,9 +14,9 @@ I care about how a thing works all the way down: software engineering, systems, 
 
 | Project | What it is | Stack | Status |
 |:---|:---|:---|:---|
-| [WekI](https://github.com/aymane-amounas/WekI) | Offline Wikipedia reader. Read local, sync when you're back online. | `Python` | building |
-| [Venus Agent](https://github.com/aymane-amounas/venusAgent) | Rust agent runtime . providers, capabilities, permissions. | `Rust` | early |
-| [jarvS](https://github.com/aymane-amounas/jarvS) | Local-first personal AI agent. Ollama + permissioned tools. | `Rust` · `Python` | active |
+| [WekI](https://github.com/aymane-amounas/WekI) | Offline Wikipedia reader. Read local, sync when you're back online. | `Python` | built |
+| [Venus Agent](https://github.com/aymane-amounas/venusAgent) | Rust agent runtime . providers, capabilities, permissions. | `Rust` | in development |
+| [jarvS](https://github.com/aymane-amounas/jarvS) | Local-first personal AI agent. Ollama + permissioned tools. | `Rust` · `Python` | built |
 | more… | there's always something cooking. | | . |
 
 ### What I'm into
