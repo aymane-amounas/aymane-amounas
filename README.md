@@ -10,14 +10,16 @@ I care about how a thing works all the way down: software engineering, systems, 
 
 ---
 
-### What I'm building
+### 🚀 Featured Projects
 
-| Project | What it is | Stack | Status | Demo |
-|:---|:---|:---|:---|:---|
-| [WekI](https://github.com/aymane-amounas/WekI) | Offline Wikipedia reader. Read local, sync when you're back online. | `Python` | built | [screenshots](https://github.com/aymane-amounas/WekI#screenshots) · [live sync](https://github.com/aymane-amounas/WekI/blob/main/benchmarks/live-sync-2026-11-10.md) |
-| [Venus Agent](https://github.com/aymane-amounas/venusAgent) | Rust agent runtime . providers, capabilities, permissions. | `Rust` | in development | [demo.md](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) |
-| [jarvS](https://github.com/aymane-amounas/jarvS) | Local-first personal AI agent. Ollama + permissioned tools. | `Rust` · `Python` | built | [DEMO.md](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) |
-| more… | there's always something cooking. | | . | |
+Local-first, source-available software — built to run on your own machine, honest about what works. Each links to a working demo and the code.
+
+| Project | What it does | Stack | Links |
+|:---|:---|:---|:---|
+| 📚 **WekI** | Offline Wikipedia reader. Read local, sync newer articles when you're back online. *(built)* | `Python` · `SQLite` · `libzim` | [Demo](https://github.com/aymane-amounas/WekI#screenshots) · [Code](https://github.com/aymane-amounas/WekI) |
+| 👑 **Venus Agent** | Rust agent runtime — your models, bounded capabilities, permissions, approvals. *(in development)* | `Rust` · `SQLite` | [Demo](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) · [Code](https://github.com/aymane-amounas/venusAgent) |
+| 🧠 **jarvS** | Local-first personal AI agent — Rust-gated execution, Ollama, permissioned tools. *(built)* | `Rust` · `Python` · `Ollama` | [Demo](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) · [Code](https://github.com/aymane-amounas/jarvS) |
+| ✨ **more…** | there's always something cooking. | | [All repos](https://github.com/aymane-amounas?tab=repositories) |
 
 ### What I'm into
 
@@ -32,9 +34,18 @@ I care about how a thing works all the way down: software engineering, systems, 
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="nginx">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/and--moreee...-555555?style=flat-square" alt="and-moreee...">
 </p>
