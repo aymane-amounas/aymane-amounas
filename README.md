@@ -34,7 +34,7 @@ I'm interested in **software engineering, systems, cybersecurity, AI, and neurot
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=and-moreee...&logoColor=red" alt="and-moreee...">
+  <img src="https://img.shields.io/badge/and--moreee...-555555?style=flat-square" alt="and-moreee...">
 </p>
 
 ---
