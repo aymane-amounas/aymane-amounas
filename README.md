@@ -1,31 +1,32 @@
-# Hey, I'm Aymane.
+<p align="center">
+  <img src="./banner.svg" alt="Aymane . Venus" width="100%">
+</p>
 
-**CS @18 · Engineer in progress...**
-**Software & Systems Engineering · AI Infrastructure**
+# Hey, I'm Aymane . aka Venus.
 
-I like understanding how systems work, breaking them, and sometimes, just sometimes making them work again.
+`CS @ 18` · I build software, break systems, and (sometimes) fix them again.
 
-I'm interested in **software engineering, systems, cybersecurity, AI, and neurotechnology**.
+I care about how a thing works all the way down: software engineering, systems, cybersecurity, AI, and neurotech. Give me something that works and I'll want to know why. Give me something that doesn't and I'll want to know *why not*.
 
 ---
 
 ### What I'm building
 
-| Project | What it is |
-|:---|:---|
-| [WekI](https://github.com/aymane-amounas/WekI) | An offline Wikipedia reader. Read locally, catch up online. |
-| [Venus Agent](https://github.com/aymane-amounas/venusAgent) | A Rust-based agent runtime built around providers, capabilities, and permissions. |
-| [jarvS](https://github.com/aymane-amounas/jarvS) | A local-first personal AI agent. |
-| **Moreee...** | There's always something cooking. |
+| Project | What it is | Stack | Status |
+|:---|:---|:---|:---|
+| [WekI](https://github.com/aymane-amounas/WekI) | Offline Wikipedia reader. Read local, sync when you're back online. | `Python` | building |
+| [Venus Agent](https://github.com/aymane-amounas/venusAgent) | Rust agent runtime . providers, capabilities, permissions. | `Rust` | early |
+| [jarvS](https://github.com/aymane-amounas/jarvS) | Local-first personal AI agent. Ollama + permissioned tools. | `Rust` · `Python` | active |
+| more… | there's always something cooking. | | . |
 
-### What I'm exploring
+### What I'm into
 
-- **Software engineering** . building reliable applications and understanding systems end to end.
-- **Cybersecurity** . networking, Linux, system security, and defensive engineering.
-- **AI systems** . local models, agent architectures, and controlled tool execution.
-- **Neurotechnology** . exploring the intersection of computing, intelligence, and the human nervous system.
+- **Systems & software** . reliable apps, understood end to end, nothing magic.
+- **Cybersecurity** . networking, Linux, offense and defense.
+- **AI systems** . local models, agent runtimes, tools that run under permission not vibes.
+- **Neurotech** . where computing meets the nervous system. Early, but watch this space.
 
-### Tools I use
+### Stack
 
 <p>
   <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
@@ -38,9 +39,6 @@ I'm interested in **software engineering, systems, cybersecurity, AI, and neurot
   <img src="https://img.shields.io/badge/and--moreee...-555555?style=flat-square" alt="and-moreee...">
 </p>
 
----
-
-### A little philosophy i live by
 
 - **Build it. Understand it. Break it. Make it better.**
 - **Have the courage to follow Ur heart and intuition**
@@ -50,6 +48,4 @@ I'm interested in **software engineering, systems, cybersecurity, AI, and neurot
 
 [GitHub](https://github.com/aymane-amounas) · [LinkedIn](https://www.linkedin.com/in/aymane-amounas/)
 
-
----
 <sub>Built by [Aymane](https://github.com/aymane-amounas)</sub>
