@@ -12,14 +12,14 @@ I care about how a thing works all the way down: software engineering, systems, 
 
 ### 🚀 Featured Projects
 
-Local-first, source-available software — built to run on your own machine, honest about what works. Each links to a working demo and the code.
+Local-first, source-available software - built to run on your own machine, honest about what works. Each links to a working demo and the code.
 
 | Project | What it does | Stack | Links |
 |:---|:---|:---|:---|
 | 📚 **WekI** | Offline Wikipedia reader. Read local, sync newer articles when you're back online. *(built)* | `Python` · `SQLite` · `libzim` | [Demo](https://github.com/aymane-amounas/WekI#screenshots) · [Code](https://github.com/aymane-amounas/WekI) |
-| 👑 **Venus Agent** | Rust agent runtime — your models, bounded capabilities, permissions, approvals. *(in development)* | `Rust` · `SQLite` | [Demo](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) · [Code](https://github.com/aymane-amounas/venusAgent) |
-| 🧠 **jarvS** | Local-first personal AI agent — Rust-gated execution, Ollama, permissioned tools. *(built)* | `Rust` · `Python` · `Ollama` | [Demo](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) · [Code](https://github.com/aymane-amounas/jarvS) |
-| 🎓 **Canvas Course Downloader** | Archive any Canvas course offline — modules, files, pages, assignments, media. Resumable, atomic, works on any instance. *(built)* | `Python` · `requests` · `bs4` | [Demo](https://github.com/aymane-amounas/Canvas-Course-Downloader#usage) · [Code](https://github.com/aymane-amounas/Canvas-Course-Downloader) |
+| 👑 **Venus Agent** | Rust agent runtime - your models, bounded capabilities, permissions, approvals. *(in development)* | `Rust` · `SQLite` | [Demo](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) · [Code](https://github.com/aymane-amounas/venusAgent) |
+| 🧠 **jarvS** | Local-first personal AI agent - Rust-gated execution, Ollama, permissioned tools. *(built)* | `Rust` · `Python` · `Ollama` | [Demo](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) · [Code](https://github.com/aymane-amounas/jarvS) |
+| 🎓 **Canvas Course Downloader** | Archive any Canvas course offline - modules, files, pages, assignments, media. Resumable, atomic, works on any instance. *(built)* | `Python` · `requests` · `bs4` | [Demo](https://github.com/aymane-amounas/Canvas-Course-Downloader#usage) · [Code](https://github.com/aymane-amounas/Canvas-Course-Downloader) |
 | ✨ **more…** | there's always something cooking. | | [All repos](https://github.com/aymane-amounas?tab=repositories) |
 
 ### What I'm into
