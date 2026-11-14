@@ -31,7 +31,7 @@
 
   <!-- terminal prompt -->
   <text x="62" y="252" font-size="18">
-    <tspan fill="#3fb950">venus@arch</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">./build.sh --break --understand --rebuild</tspan>
+    <tspan fill="#3fb950">lethebyte@kali</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">./build.sh --break --understand --rebuild</tspan>
   </text>
   <rect x="648" y="238" width="11" height="20" fill="#3fb950">
     <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
