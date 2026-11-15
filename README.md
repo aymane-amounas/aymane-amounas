@@ -16,6 +16,7 @@ Local-first, source-available software - built to run on your own machine, hones
 
 | Project | What it does | Stack | Links |
 |:---|:---|:---|:---|
+| 🐟 **PhishLab** | Offline-first phishing investigation workbench - parse suspicious emails, defang indicators, inspect attachments without executing them, evidence-based JSON/PDF reports. *(built)* | `Python` · `FastAPI` · `React` · `SQLite` | [Demo](https://github.com/aymane-amounas/phishlab/blob/main/docs/demo.md) · [Code](https://github.com/aymane-amounas/phishlab) |
 | 📚 **WekI** | Offline Wikipedia reader. Read local, sync newer articles when you're back online. *(built)* | `Python` · `SQLite` · `libzim` | [Demo](https://github.com/aymane-amounas/WekI#screenshots) · [Code](https://github.com/aymane-amounas/WekI) |
 | 👑 **Venus Agent** | Rust agent runtime - your models, bounded capabilities, permissions, approvals. *(in development)* | `Rust` · `SQLite` | [Demo](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) · [Code](https://github.com/aymane-amounas/venusAgent) |
 | 🧠 **jarvS** | Local-first personal AI agent - Rust-gated execution, Ollama, permissioned tools. *(built)* | `Rust` · `Python` · `Ollama` | [Demo](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) · [Code](https://github.com/aymane-amounas/jarvS) |
