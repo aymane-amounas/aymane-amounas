@@ -1,64 +1,80 @@
 <p align="center">
-  <img src="./banner.svg" alt="Aymane . Venus" width="100%">
+  <img src="./banner.svg" alt="Aymane Amounas" width="100%">
 </p>
 
-# Hey, I'm Aymane . aka Venus.
+# Aymane Amounas - Software & Systems Engineering
 
-`CS @ 18` · I build software, break systems, and (sometimes) fix them again.
+I build systems and local-first software, with a focus on controlled AI execution.
 
-I care about how a thing works all the way down: software engineering, systems, cybersecurity, AI, and neurotech. Give me something that works and I'll want to know why. Give me something that doesn't and I'll want to know *why not*.
+## Projects
 
----
+The projects below are ordered by how closely they represent my current engineering focus. 
 
-### 🚀 Featured Projects
+### Venus Agent
 
-Local-first software, built to run on your own machine - honest about what works. Mix of open-source and source-available; each links to a working demo and the code.
+**Status:** In development  
+**Focus:** Rust · AI infrastructure · Permissioned execution
 
-| Project | What it does | Stack | Links |
+A Rust agent runtime designed around bounded capabilities, permission profiles, explicit approval workflows, and an auditable execution history. Venus Agent is intended as a reusable runtime for controlled agent execution, rather than a complete end-user assistant.
+
+[Demo](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) · [Repository](https://github.com/aymane-amounas/venusAgent)
+
+### WekI
+
+**Status:** Experimental  
+**Focus:** Offline-first software · Data synchronization
+
+An offline Wikipedia reader. It uses a local ZIM archive as its source content and a SQLite-backed update layer to make newer article versions available without modifying the original archive.
+
+[Demo and screenshots](https://github.com/aymane-amounas/WekI#screenshots) · [Repository](https://github.com/aymane-amounas/WekI)
+
+### AgentTrace
+
+**Status:** Built  
+**Focus:** AI observability · Rust · Developer tooling
+
+Local-first observability for AI-agent runs. It records structured spans for model and tool calls, supports trace inspection and replay, and is designed to redact secrets before persistence.
+
+[Screenshot](https://github.com/aymane-amounas/agenttrace/blob/main/docs/assets/trace-detail.jpg) · [Repository](https://github.com/aymane-amounas/agenttrace)
+
+## Additional Projects
+
+| Project | Status | Description | Links |
 |:---|:---|:---|:---|
-| 🐟 **PhishLab** | Offline-first phishing investigation workbench - parse suspicious emails, defang indicators, inspect attachments without executing them, evidence-based JSON/PDF reports. *(built)* | `Python` · `FastAPI` · `React` · `SQLite` | [Demo](https://github.com/aymane-amounas/phishlab/blob/main/docs/demo.md) · [Code](https://github.com/aymane-amounas/phishlab) |
-| 📚 **WekI** | Offline Wikipedia reader. Read local, sync newer articles when you're back online. *(built)* | `Python` · `SQLite` · `libzim` | [Demo](https://github.com/aymane-amounas/WekI#screenshots) · [Code](https://github.com/aymane-amounas/WekI) |
-| 👑 **Venus Agent** | Rust agent runtime - your models, bounded capabilities, permissions, approvals. *(in development)* | `Rust` · `SQLite` | [Demo](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) · [Code](https://github.com/aymane-amounas/venusAgent) |
-| 🟪 **AgentTrace** | Observability for AI agents - structured spans for every run, model call and tool call; replay a run and find the exact span that failed; secrets redacted before storage. *(built)* | `Rust` · `SQLite` · `React` | [Demo](https://github.com/aymane-amounas/agenttrace/blob/main/docs/assets/trace-detail.jpg) · [Code](https://github.com/aymane-amounas/agenttrace) |
-| 🧠 **jarvS** | Local-first personal AI agent - Rust-gated execution, Ollama, permissioned tools. *(built)* | `Rust` · `Python` · `Ollama` | [Demo](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) · [Code](https://github.com/aymane-amounas/jarvS) |
-| 🎓 **Canvas Course Downloader** | Archive any Canvas course offline - modules, files, pages, assignments, media. Resumable, atomic, works on any instance. *(built)* | `Python` · `requests` · `bs4` | [Demo](https://github.com/aymane-amounas/Canvas-Course-Downloader#usage) · [Code](https://github.com/aymane-amounas/Canvas-Course-Downloader) |
-| ✨ **more…** | there's always something cooking. | | [All repos](https://github.com/aymane-amounas?tab=repositories) |
+| **PhishLab** | Built | Offline-first phishing investigation workbench for parsing suspicious emails, defanging indicators, inspecting attachments without executing them, and producing evidence-based reports. | [Demo](https://github.com/aymane-amounas/phishlab/blob/main/docs/demo.md) · [Repository](https://github.com/aymane-amounas/phishlab) |
+| **jarvS** | Built | Local-first personal AI assistant combining Rust-gated execution, Python orchestration, Ollama inference, and permissioned tools. Unlike Venus Agent's reusable runtime, jarvS is an end-user assistant built around controlled execution. | [Demo](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) · [Repository](https://github.com/aymane-amounas/jarvS) |
+| **Canvas Course Downloader** | Built | Tool for archiving accessible Canvas course content offline, including modules, files, pages, assignments, and supported media. | [Usage](https://github.com/aymane-amounas/Canvas-Course-Downloader#usage) · [Repository](https://github.com/aymane-amounas/Canvas-Course-Downloader) |
 
-### What I'm into
+[View all repositories](https://github.com/aymane-amounas?tab=repositories)
 
-- **Systems & software** . reliable apps, understood end to end, nothing magic.
-- **Cybersecurity** . networking, Linux, offense and defense.
-- **AI systems** . local models, agent runtimes, tools that run under permission not vibes.
-- **Neurotech** . where computing meets the nervous system. Early, but watch this space.
+## Engineering Focus
 
-### Stack
+- **Systems engineering:** software architecture, runtime behavior, and understanding systems end to end.
+- **Local-first software:** offline workflows, local data, and synchronization.
+- **AI infrastructure:** agent runtimes, bounded tool access, and permission-controlled execution.
+- **Cybersecurity:** security tooling, networking, and defensive engineering.
 
-<p>
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="nginx">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/and--moreee...-555555?style=flat-square" alt="and-moreee...">
-</p>
+## Technical Stack
 
+*Technologies used across my projects; this is not a claim of equal depth in every tool.*
 
-- **Build it. Understand it. Break it. Make it better.**
-- **Have the courage to follow Ur heart and intuition**
-- **And Do not forget to HAVE FUN WITH IT**
+**Languages**  
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
 
----
+**Application development**  
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+
+**Storage and offline data**  
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+<img src="https://img.shields.io/badge/libzim-F88900?style=flat-square" alt="libzim">
+
+**Local AI**  
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
+
+## Contact
 
 [GitHub](https://github.com/aymane-amounas) · [LinkedIn](https://www.linkedin.com/in/aymane-amounas/)
 
