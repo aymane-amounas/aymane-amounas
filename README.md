@@ -4,74 +4,60 @@
 
 # Aymane Amounas - Software & Systems Engineering
 
-I build systems and local-first software, with a focus on controlled AI execution.
+I'm a software and systems engineering student. Most of what I build is local-first, so it runs on your own machine instead of someone else's server. Lately I keep circling the same question: how do you let an AI model do real work without handing it the keys to everything? A lot of my projects are some version of putting honest boundaries around what code is actually allowed to do.
 
-## Projects
+Here are the ones I spend the most time on. I ordered them by how close they are to what I care about right now, not by how finished they are.
 
-The projects below are ordered by how closely they represent my current engineering focus. 
+## Venus Agent
 
-### Venus Agent
-
-**Status:** In development  
-**Focus:** Rust · AI infrastructure · Permissioned execution
-
-A Rust agent runtime designed around bounded capabilities, permission profiles, explicit approval workflows, and an auditable execution history. Venus Agent is intended as a reusable runtime for controlled agent execution, rather than a complete end-user assistant.
+This is the one I care about most. It's a runtime in Rust for AI agents, built on a simple rule: the model can propose an action, but nothing runs until it clears a permission check, and for anything that matters, an explicit approval from me. Every decision gets written to an audit log so I can go back and see what happened. It's still in development, and it's meant to be a reusable runtime you build on top of, not a finished assistant you chat with.
 
 [Demo](https://github.com/aymane-amounas/venusAgent/blob/main/docs/demo.md) · [Repository](https://github.com/aymane-amounas/venusAgent)
 
-### WekI
+## WekI
 
-**Status:** Experimental  
-**Focus:** Offline-first software · Data synchronization
-
-An offline Wikipedia reader. It uses a local ZIM archive as its source content and a SQLite-backed update layer to make newer article versions available without modifying the original archive.
+An offline Wikipedia reader. It reads the original content from a local ZIM archive and keeps newer versions of articles in a SQLite layer on top, so the archive itself never gets touched. Still experimental.
 
 [Demo and screenshots](https://github.com/aymane-amounas/WekI#screenshots) · [Repository](https://github.com/aymane-amounas/WekI)
 
-### AgentTrace
+## AgentTrace
 
-**Status:** Built  
-**Focus:** AI observability · Rust · Developer tooling
-
-Local-first observability for AI-agent runs. It records structured spans for model and tool calls, supports trace inspection and replay, and is designed to redact secrets before persistence.
+Local-first observability for agent runs. It records structured spans for every model call and tool call, lets you inspect and replay a run, and redacts secrets before anything is written to storage. This one is built.
 
 [Screenshot](https://github.com/aymane-amounas/agenttrace/blob/main/docs/assets/trace-detail.jpg) · [Repository](https://github.com/aymane-amounas/agenttrace)
 
-## Additional Projects
+## A few more
 
-| Project | Status | Description | Links |
-|:---|:---|:---|:---|
-| **PhishLab** | Built | Offline-first phishing investigation workbench for parsing suspicious emails, defanging indicators, inspecting attachments without executing them, and producing evidence-based reports. | [Demo](https://github.com/aymane-amounas/phishlab/blob/main/docs/demo.md) · [Repository](https://github.com/aymane-amounas/phishlab) |
-| **jarvS** | Built | Local-first personal AI assistant combining Rust-gated execution, Python orchestration, Ollama inference, and permissioned tools. Unlike Venus Agent's reusable runtime, jarvS is an end-user assistant built around controlled execution. | [Demo](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) · [Repository](https://github.com/aymane-amounas/jarvS) |
-| **Canvas Course Downloader** | Built | Tool for archiving accessible Canvas course content offline, including modules, files, pages, assignments, and supported media. | [Usage](https://github.com/aymane-amounas/Canvas-Course-Downloader#usage) · [Repository](https://github.com/aymane-amounas/Canvas-Course-Downloader) |
+**PhishLab** is an offline-first phishing investigation workbench. It parses suspicious emails, defangs the indicators, and inspects attachments without ever executing them, then writes up evidence-based reports. Built. [Demo](https://github.com/aymane-amounas/phishlab/blob/main/docs/demo.md) · [Repository](https://github.com/aymane-amounas/phishlab)
+
+**jarvS** is a local-first personal assistant. Python does the reasoning, Rust handles execution behind a permission gate, and Ollama runs the model locally. The difference from Venus Agent is that Venus is the reusable runtime and jarvS is the end-user assistant built around that same controlled execution. Built. [Demo](https://github.com/aymane-amounas/jarvS/blob/main/docs/DEMO.md) · [Repository](https://github.com/aymane-amounas/jarvS)
+
+**Canvas Course Downloader** archives Canvas course content offline: modules, files, pages, assignments, and supported media. Built. [Usage](https://github.com/aymane-amounas/Canvas-Course-Downloader#usage) · [Repository](https://github.com/aymane-amounas/Canvas-Course-Downloader)
 
 [View all repositories](https://github.com/aymane-amounas?tab=repositories)
 
-## Engineering Focus
+## What I'm into
 
-- **Systems engineering:** software architecture, runtime behavior, and understanding systems end to end.
-- **Local-first software:** offline workflows, local data, and synchronization.
-- **AI infrastructure:** agent runtimes, bounded tool access, and permission-controlled execution.
-- **Cybersecurity:** security tooling, networking, and defensive engineering.
+Systems engineering and understanding how things behave end to end, local-first and offline software, AI infrastructure with bounded tool access and permissioned execution, and the security side that runs through all of it.
 
-## Technical Stack
+## Stack
 
-*Technologies used across my projects; this is not a claim of equal depth in every tool.*
+A rough map of what I reach for, not a claim that I'm equally deep in every one.
 
-**Languages**  
+Languages  
 <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
 
-**Application development**  
+Application development  
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
 
-**Storage and offline data**  
+Storage and offline data  
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
 <img src="https://img.shields.io/badge/libzim-F88900?style=flat-square" alt="libzim">
 
-**Local AI**  
+Local AI  
 <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
 
 ## Contact
